@@ -17,6 +17,7 @@ class handler(BaseHTTPRequestHandler):
             <html>
             <head>
                 <title>Hello User</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
             </head>
             <body>
                 <h1>Enter Your Name</h1>
@@ -44,6 +45,7 @@ class handler(BaseHTTPRequestHandler):
             <html>
             <head>
                 <title>Hello User</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
             </head>
             <body>
                 <h1>Hello, {name}!</h1>
